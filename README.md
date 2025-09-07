@@ -155,32 +155,13 @@ Opciones:
 ## 📸 Screenshots
 
 ### Menú Principal
-```
-🚀 Bienvenido
-┌────────────────────────────────────────┐
-│    GitHub Releases Downloader          │
-│    Repositorio: eden-emulator/Releases │
-│    Token configurado: Sí               │
-└────────────────────────────────────────┘
+<img width="2560" height="1074" alt="pythonimage" src="https://github.com/user-attachments/assets/7ae65ff5-3c4e-4ed0-bba6-70c7dbb61e20" />
 
-¿Qué deseas hacer?
-1. 📋 Ver releases disponibles
-2. ⚡ Descarga rápida (última release completa)
-3. 🎯 Descarga selectiva
-4. 🔑 Configurar token de GitHub
-5. 🚪 Salir
-```
 
 ### Lista de Releases
-```
-             📦 Releases Disponibles              
-┏━━━┳━━━━━━━━━━━━━━━━━━━━┳━━━━━━━━━━┳━━━━━━━━━━━━┳━━━━━━━━┳━━━━━━━━┓
-┃ # ┃ Nombre             ┃ Tag      ┃ Fecha      ┃ Assets ┃ Tamaño ┃
-┡━━━╇━━━━━━━━━━━━━━━━━━━━╇━━━━━━━━━━╇━━━━━━━━━━━━╇━━━━━━━━╇━━━━━━━━┩
-│ 1 │ Version 2.1.0      │ v2.1.0   │ 2024-01-15 │   3    │ 45.2MB │
-│ 2 │ Version 2.0.1      │ v2.0.1   │ 2024-01-10 │   2    │ 42.1MB │
-└───┴────────────────────┴──────────┴────────────┴────────┴────────┘
-```
+
+<img width="2560" height="1105" alt="list" src="https://github.com/user-attachments/assets/5cebb9df-9d2d-4bb8-b4e6-23feb8c623a9" />
+
 
 ## ⚠️ Limitaciones de la API de GitHub
 
