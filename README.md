@@ -1,5 +1,20 @@
-### Menú Principal
-```
+# **GitHub Releases Downloader CLI**
+
+---
+
+### Descripción
+
+Esta es una **herramienta de línea de comandos (CLI)**, potente y fácil de usar, diseñada para simplificar el proceso de descarga de *releases* (versiones) desde cualquier repositorio de GitHub. Con solo unos pocos comandos, podrás listar las versiones disponibles y descargar archivos específicos o todos los *assets* de una *release* completa.
+
+### Características Principales
+
+* **Listado Inteligente**: Muestra de forma clara y organizada las últimas *releases* de un repositorio, incluyendo el nombre, la etiqueta (*tag*) y la fecha de publicación.
+* **Descarga Flexible**: Elige entre descargar un solo archivo de una *release* o descargar todos los *assets* de la última versión disponible.
+* **Autenticación Opcional**: Funciona sin necesidad de autenticación, pero si proporcionas un **token de GitHub**, la herramienta utilizará la API con un límite de tasa más alto para descargas más rápidas y fiables.
+* **Interfaz Moderna**: Utiliza una interfaz de usuario limpia, interactiva y con colores para una mejor experiencia en la terminal.
+
+Ideal para desarrolladores, usuarios de *software* de código abierto y cualquier persona que necesite automatizar la descarga de versiones de proyectos de GitHub.
+
 🚀 Bienvenido
 ┌────────────────────────────────────────┐
 │    GitHub Releases Downloader          │
