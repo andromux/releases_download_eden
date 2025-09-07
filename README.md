@@ -44,10 +44,26 @@ Una herramienta de línea de comandos profesional para descargar releases de rep
 ### Opción 1: Instalación básica
 ```bash
 # Clonar o descargar el script
-wget https://example.com/github_releases_downloader.py
+wget https://raw.githubusercontent.com/andromux/releases_download_eden/refs/heads/main/download_eden.py
 
-# Instalar dependencias mínimas
-pip install requests
+# GitHub Releases Downloader - Dependencias
+# Autor: Andromux ORG
+# Versión: 1.0.0
+
+# Dependencias principales (obligatorias)
+requests>=2.31.0
+
+# Dependencias para interfaz mejorada (opcionales pero recomendadas)
+rich>=13.0.0
+
+# Dependencias del sistema (ya incluidas en Python 3.x)
+# pathlib - incluida desde Python 3.4+
+# json - incluida en biblioteca estándar
+# os - incluida en biblioteca estándar  
+# sys - incluida en biblioteca estándar
+# datetime - incluida en biblioteca estándar
+# argparse - incluida desde Python 3.2+
+# typing - incluida desde Python 3.5+
 ```
 
 ### Opción 2: Instalación completa (recomendada)
