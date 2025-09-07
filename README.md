@@ -80,10 +80,10 @@ pip install -r requirements.txt
 ### Uso Básico
 ```bash
 # Ejecutar con repositorio por defecto (eden-emulator/Releases)
-python github_releases_downloader.py
+python download_eden.py
 
 # Especificar un repositorio diferente
-python github_releases_downloader.py --repo usuario/nombre-repo
+python download_eden.py --repo usuario/nombre-repo
 ```
 
 ### Configuración del Token de GitHub (Opcional)
@@ -98,7 +98,7 @@ Para aumentar el límite de solicitudes de la API de GitHub, puedes configurar u
 2. **Configurar en la aplicación**:
    ```bash
    # Configurar token al inicio
-   python github_releases_downloader.py --configure-token
+   python download_eden.py --configure-token
    
    # O configúralo desde el menú interactivo (opción 4)
    ```
@@ -131,7 +131,7 @@ El token se guardará automáticamente en `.secret_token.json` para uso futuro.
 
 ```
 ./
-├── github_releases_downloader.py  # Script principal
+├── download_eden.py  # Script principal
 ├── requirements.txt               # Dependencias
 ├── .secret_token.json            # Token de GitHub (se crea automáticamente)
 └── downloads/                    # Carpeta de descargas (se crea automáticamente)
@@ -143,7 +143,7 @@ El token se guardará automáticamente en `.secret_token.json` para uso futuro.
 ## 🔧 Opciones de Línea de Comandos
 
 ```bash
-python github_releases_downloader.py [opciones]
+python download_eden.py [opciones]
 
 Opciones:
   --repo REPO           Repositorio GitHub (formato: usuario/repo)
