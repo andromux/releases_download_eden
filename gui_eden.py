@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-GitHub Releases GUI
+GitHub Releases GUI.
 Implementa la lógica de la versión CLI con una interfaz gráfica moderna.
 """
 
